@@ -158,8 +158,8 @@ def load_mnist():
     return tuple(out)
 
 def load_market_basket():
-    url = "http://fimi.uantwerpen.be/data/retail.dat"
-    name = "retail.dat"
+    url = "http://fimi.uantwerpen.be/data/kosarak.dat"
+    name = "kosarak.dat"
     base_dir = os.path.abspath(os.path.dirname(os.path.abspath(__file__)) + '/../utilities/data/') + '/'
     
     file_path = base_dir + name
