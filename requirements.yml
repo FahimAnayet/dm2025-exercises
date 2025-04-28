@@ -15,6 +15,12 @@ dependencies:
     - spacy
     - datasets
     - faiss-cpu
+    - nltk
+    - gensim
+    - pyldavis
+    - vadersentiment
+    - empath
+    - wordcloud
     - pip
     - pip:
         - drawdata
@@ -22,4 +28,3 @@ dependencies:
         - torchvision
         - networkx
         - beir
-        - tabulate
